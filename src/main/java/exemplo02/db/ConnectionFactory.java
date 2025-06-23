@@ -1,4 +1,5 @@
 package exemplo02.db;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,9 +9,11 @@ import org.sqlite.SQLiteConfig;
  * Classe responsável por criar conexões com o banco
  */
 public abstract class ConnectionFactory {
+
     private static final String DB_URI = "jdbc:sqlite:lab01.sqlite";
     private static Connection cnx;
     private static SQLiteConfig sqLiteConfig = new SQLiteConfig();
+
     public static synchronized Connection getDBConnection() throws SQLException {
         sqLiteConfig.enforceForeignKeys(true);
         try {
@@ -20,5 +23,4 @@ public abstract class ConnectionFactory {
         }
         return cnx;
     }
-
 }
