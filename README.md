@@ -33,7 +33,7 @@ O projeto está organizado da seguinte forma:
 └── java/
 └── bcd/
 └── TesteExemplo01SQLite.java # Testes unitários para o Exemplo 01
-</pre<
+</pre>
 
 ## Tecnologias Utilizadas
 
