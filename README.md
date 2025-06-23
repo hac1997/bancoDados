@@ -5,7 +5,7 @@ Este projeto Java demonstra diferentes abordagens e boas práticas para interagi
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-<div>
+<pre>
 .
 ├── build.gradle              # Configurações do Gradle e dependências
 ├── settings.gradle           # Configurações de multiprojeto do Gradle
@@ -33,7 +33,8 @@ O projeto está organizado da seguinte forma:
 └── java/
 └── bcd/
 └── TesteExemplo01SQLite.java # Testes unitários para o Exemplo 01
-</div>
+</pre<
+
 ## Tecnologias Utilizadas
 
 * **Java Development Kit (JDK) 24**
